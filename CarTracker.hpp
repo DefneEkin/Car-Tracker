@@ -4,6 +4,8 @@
 #include "Car.hpp"
 #include <vector>
 
+using namespace std;
+
 class CarTracker {
 
 public:
