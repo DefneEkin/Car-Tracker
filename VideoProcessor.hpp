@@ -6,6 +6,8 @@
 #include <opencv2/opencv.hpp>
 #include <vector>
 
+using namespace std;
+
 class VideoProcessor {
 public:
     VideoProcessor(const string & video_path, const string & output_path, YOLODetector & detector, CarTracker & tracker);
