@@ -1,4 +1,4 @@
-#include "YOLODetector.hpp"
+#include "YOLODetector.hpp" 
 
 YOLODetector::YOLODetector(const string & model_config, const string & model_weights) {
     net = cv::dnn::readNetFromDarknet(model_config, model_weights);
